@@ -4,7 +4,7 @@ app =Flask(__name__)
 
 @app.route('/')
 def sample():
-	name = '株式会社キカガク'
+	name = 'yk-practice'
 	return render_template('sample.html', name = name)
 
 @app.route('/sample2' , methods=["POST"])
