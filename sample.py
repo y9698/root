@@ -4,7 +4,7 @@ app =Flask(__name__)
 
 @app.route('/')
 def sample():
-	name = 'yk-practice2'
+	name = 'heroku-practice1'
 	return render_template('sample.html', name = name)
 
 @app.route('/sample2' , methods=["POST"])
